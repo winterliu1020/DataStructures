@@ -1,3 +1,5 @@
+package com.winterliu;
+
 import java.util.Scanner;
 
 public class CircleArrayQueueDemo {
