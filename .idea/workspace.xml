@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc90eae-6a53-4c51-9e4d-7461213a7f75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/winterliu/HeapSort.java" afterDir="false" />
+    <list default="true" id="8fc90eae-6a53-4c51-9e4d-7461213a7f75" name="Default Changelist" comment="归并排序()">
+      <change afterPath="$PROJECT_DIR$/src/com/winterliu/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/winterliu/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="184">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/winterliu/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -105,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/com/winterliu/Div3DeScanSort.java" />
         <option value="$PROJECT_DIR$/src/com/winterliu/DualPivotQuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/winterliu/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/com/winterliu/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -166,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Div3DeScanSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.winterliu.Div3DeScanSort" />
       <module name="DataStructures" />
@@ -193,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForwardScanSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.winterliu.ForwardScanSort" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.winterliu.HeapSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -206,8 +216,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.winterliu.HeapSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.winterliu.MergeSort" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -234,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.DualPivotQuickSort" />
         <item itemvalue="Application.Div3DeScanSort" />
         <item itemvalue="Application.div3ScanSort" />
-        <item itemvalue="Application.ForwardScanSort" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +262,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573695378685</updated>
-      <workItem from="1573695381063" duration="20044000" />
+      <workItem from="1573695381063" duration="23058000" />
     </task>
     <task id="LOCAL-00001" summary="快排(赋值填充方式)">
       <created>1573698291916</created>
@@ -296,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573788627419</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="堆排序(简单选择排序的升级版)">
+      <created>1573959518312</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573959518312</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20044000" />
+    <option name="totallyTimeSpent" value="23058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -324,7 +341,7 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24795918" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19897959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,7 +393,8 @@
     <MESSAGE value="优化后的快排(三分单向扫描方式)" />
     <MESSAGE value="优化后的快排(三分双向扫描方式)" />
     <MESSAGE value="双轴快排(Arrays.sort()函数底层实现)" />
-    <option name="LAST_COMMIT_MESSAGE" value="双轴快排(Arrays.sort()函数底层实现)" />
+    <MESSAGE value="堆排序(简单选择排序的升级版)" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆排序(简单选择排序的升级版)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataStructures$TraditionQuickSort.ic" NAME="TraditionQuickSort Coverage Results" MODIFIED="1573697175296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -442,8 +460,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/winterliu/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="184">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/winterliu/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
         </state>
       </provider>
     </entry>
